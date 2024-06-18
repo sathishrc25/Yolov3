@@ -82,7 +82,7 @@ test_transforms = albumentations.Compose(
         ToTensorV2(),
     ],
     bbox_params=albumentations.BboxParams(format="yolo", min_visibility=0.4, label_fields=[]),
-
+)
 
 COCO_LABELS = [
     'person',

@@ -1,7 +1,7 @@
 """
 Implementation of YOLOv3 architecture
 """
-import config
+#import config
 import os
 import torch
 import torch.nn as nn
